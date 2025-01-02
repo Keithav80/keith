@@ -27,7 +27,7 @@ a {
 }
 
 #progress {
-  background-color: #1c1c1c;
+  background-color: #1c1c1c7c;
   color: #fff5f2;
   align-items: center;
   justify-content: center;
@@ -56,6 +56,12 @@ h2 {
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+#goalstext {
+  color: #1c1c1c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 #contacttext {
@@ -119,4 +125,17 @@ h3 {
 .langs img {
   width: 250px;
   height: auto;
+}
+
+.container2 {
+  background-color: #1c1c1c;
+  color: #fff5f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container2 img {
+  width: 250px;
 }
