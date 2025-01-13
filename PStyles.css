@@ -18,6 +18,19 @@ a {
   justify-content: space-around;
 }
 
+#currentpage {
+  text-decoration-color: #ffe11e;
+}
+
+::selection {
+  background-color: #fff5f2;
+  color: #fff5f2;
+}
+
+a:hover {
+  color: #ffe11e
+}
+
 #indextext {
   color: #1c1c1c;
   font-family: Arial, Helvetica, sans-serif;
