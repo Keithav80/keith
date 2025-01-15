@@ -18,8 +18,8 @@ a {
   justify-content: space-around;
 }
 
-#currentpage {
-  text-decoration-color: #ffe11e;
+#active {
+  color: #ffe11e;
 }
 
 ::selection {
