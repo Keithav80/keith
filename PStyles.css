@@ -145,3 +145,58 @@ h3 {
 .container2 img {
   width: 250px;
 }
+
+.container3 {
+  background-color: #045c07;
+  color: #fff5f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container4 {
+  background-color: #1c1c1c;
+  color: #fff5f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container5 {
+  background-color: #0d65ca;
+  color: #fff5f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container6 {
+  background-color: #1c1c1c;
+  color: #fff5f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container7 {
+  background-color: #d17409;
+  color: #fff5f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
