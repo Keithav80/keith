@@ -8,17 +8,24 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <div id="navbartop">
-      <a href="#" id="active" class="title">Home</a>
-      <a>|</a>
-      <a href="about.html">About</a>
-      <a>|</a>
-      <a href="goals.html">Goals</a>
-      <a>|</a>
-      <a href="hobbies.html">Hobbies</a>
-      <a>|</a>
-      <a href="contact.html">Contact</a>
-    </div>
+    <nav>
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </label>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="goals.html">Goals</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
 
     <div id="indextext">
       <h1>Welcome To My Site</h1>
@@ -30,15 +37,13 @@
         you'll see my journey into Web Development (hopefully).
       </p>
       <p>
-        Next task: The wall of text has been changed and has been made into sections. Still needs work though.
+        Next task: Hobbies still needs to be improved. It's not so much a wall of text anymore. Still deciding on how best to tackle it though.
       </p>
 
       <br />
       <div id="progress">
         <marquee
-          >Changes have been made to the section 'NCFE Level 2 Certificate in
-          Understanding Coding', now having received my Certificate.</marquee
-        >
+          >Improved the navigation bar to work with mobile devices.</marquee>
       </div>
     </div>
   </body>
