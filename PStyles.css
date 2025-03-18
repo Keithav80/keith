@@ -101,6 +101,7 @@ body {
 
 #progress {
   background-color: #1c1c1c7c;
+  border-radius: 10px;
   color: #fff5f2;
   align-items: center;
   justify-content: center;
@@ -148,12 +149,13 @@ h3 {
 }
 
 .container {
+  border-radius: 10px;
   background-color: #1c1c1c;
   color: #fff5f2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .list {
@@ -171,12 +173,13 @@ h3 {
 }
 
 .container1 {
+  border-radius: 10px;
   background-color: #1c1c1c;
   color: #fff5f2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .list {
@@ -207,6 +210,7 @@ h3 {
 }
 
 .container3 {
+  border-radius: 10px;
   background-color: #045c07;
   color: #fff5f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -214,10 +218,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .container4 {
+  border-radius: 10px;
   background-color: #1c1c1c;
   color: #fff5f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -225,10 +230,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .container5 {
+  border-radius: 10px;
   background-color: #0d65ca;
   color: #fff5f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -236,10 +242,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .container6 {
+  border-radius: 10px;
   background-color: #1c1c1c;
   color: #fff5f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -247,10 +254,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .container7 {
+  border-radius: 10px;
   background-color: #d17409;
   color: #fff5f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -258,5 +266,5 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
