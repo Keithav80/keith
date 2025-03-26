@@ -114,19 +114,18 @@ body {
 }
 
 #progress {
-  display: flex;
+  font-size: 12pt;
   background-color: var(--color-1);
-  border-radius: 8px;
   color: #fff5f2;
   align-items: center;
   justify-content: space-evenly;
   display: flex;
   height: 40px;
-  margin: 16px;
 }
 
 .flex-container {
   display: flex;
+  font-size: 14pt;
   gap: 1rem;
   flex-wrap: wrap;
   align-content: center;
