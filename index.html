@@ -7,6 +7,7 @@
     <title>Keith's Page</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
+
   <body>
     <nav>
       <input type="checkbox" id="sidebar-active" />
@@ -48,24 +49,33 @@
       </div>
     </nav>
 
-    <div id="body-text">
+    <main>
       <h1>Welcome To My Site</h1>
-      <br>
-      <p>
-        This site will feature my current projects, educational goals and also
-        my interests.<br />
-        Actually this site is essentially my first project and will be where
-        you'll see my journey into the IT sector, Web Development (hopefully).
-      </p>
-      <br />
-      <p><b>Next tasks:</b></p>
-        <ul>
-          <li>'Interests' is an ongoing Work-in-progress.</li>
-        </ul>
-      <br />
-      <div id="progress">
-        <marquee>Fixed responsive issues.</marquee>
+
+      <div class="flex-container">
+        <div id="box">
+        This site will feature my current projects, educational goals and also my interests.<br />
+        Actually this site is essentially my first project and will be where you'll see my journey into the IT sector, Web Development (hopefully).
+        </div>
+
+        <div id="box">
+          <div id="box-1">
+          Next Steps:
+          </div>
+          <div id="box-2">
+          <ol>
+            <li>Apply theme throughout site.</li>
+            <li>Apply responsive behavior to all other pages.</li>
+            <li>Sort out the 'Interests' page... At some point.</li>
+          </ol></div>
+        </div>
       </div>
-    </div>
+  </main>
+  <br>
+
+      <div id="progress">
+        Flexbox or Grid? Need to fix the above issue!
+      </div>
+
   </body>
 </html>
