@@ -148,14 +148,24 @@ body {
   flex: 1;
 }
 
-#box-1 {
-  font-weight: bold;
+.grid {
+  display: inline-grid;
+  border: 4px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 8px;
 }
 
 @media (max-width: 500px) {
   .flex-container {
     flex-direction: column;
   }
+}
+
+#box-2 {
+  border: 4px solid var(--accent-color);
+  border-radius: 8px;
+  display: flex;
+  padding: 8px;
 }
 
 h1 {
